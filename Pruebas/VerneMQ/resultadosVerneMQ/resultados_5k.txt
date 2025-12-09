@@ -1,0 +1,37 @@
+10 worker started
+Test timeout. Wait 5s to allow disconnection of clients.
+
+# Configuration
+Concurrent Clients: 10
+Messages / Client:  50000
+
+# Results
+Published Messages: 50000 (100%)
+Received Messages:  28900 (58%)
+Completed:          0 (0%)
+Errors:             0 (0%)
+
+# Publishing Throughput
+Fastest: 4339 msg/sec
+Slowest: 1063 msg/sec
+Median: 1937 msg/sec
+
+  < 1391 msg/sec  10%
+  < 1718 msg/sec  20%
+  < 2046 msg/sec  60%
+  < 2373 msg/sec  80%
+  < 3356 msg/sec  90%
+  < 4666 msg/sec  100%
+
+# Receiving Througput
+Fastest: 2982 msg/sec
+Slowest: 905 msg/sec
+Median: 1396 msg/sec
+
+  < 1112 msg/sec  30%
+  < 1320 msg/sec  40%
+  < 1528 msg/sec  60%
+  < 2359 msg/sec  70%
+  < 2566 msg/sec  80%
+  < 2774 msg/sec  90%
+  < 3190 msg/sec  100%

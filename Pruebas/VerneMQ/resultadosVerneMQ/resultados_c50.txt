@@ -1,0 +1,41 @@
+50 worker started
+
+# Configuration
+Concurrent Clients: 50
+Messages / Client:  50000
+
+# Results
+Published Messages: 50000 (100%)
+Received Messages:  50000 (100%)
+Completed:          50 (100%)
+Errors:             0 (0%)
+
+# Publishing Throughput
+Fastest: 1156 msg/sec
+Slowest: 435 msg/sec
+Median: 870 msg/sec
+
+  < 507 msg/sec  14%
+  < 579 msg/sec  16%
+  < 724 msg/sec  22%
+  < 796 msg/sec  38%
+  < 868 msg/sec  50%
+  < 940 msg/sec  70%
+  < 1012 msg/sec  80%
+  < 1084 msg/sec  98%
+  < 1228 msg/sec  100%
+
+# Receiving Througput
+Fastest: 723 msg/sec
+Slowest: 236 msg/sec
+Median: 342 msg/sec
+
+  < 285 msg/sec  18%
+  < 333 msg/sec  46%
+  < 382 msg/sec  72%
+  < 431 msg/sec  84%
+  < 480 msg/sec  90%
+  < 528 msg/sec  94%
+  < 577 msg/sec  96%
+  < 674 msg/sec  98%
+  < 772 msg/sec  100%
